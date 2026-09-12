@@ -1,0 +1,6 @@
+# No maroon objectives, just Teach A Lesson
+- type: !PartialOnly entity
+  id: TraitorObjectiveGroupKill
+  weights:
+    TeachRandomPersonObjective: 1
+    TeachRandomHeadObjective: 0.25

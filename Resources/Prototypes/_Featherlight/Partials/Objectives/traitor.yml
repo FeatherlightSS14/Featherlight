@@ -1,0 +1,4 @@
+- type: !PartialOnly entity
+  id: DieObjective
+- type: ObjectiveLimit
+  limit: 1 # Just one, please.
