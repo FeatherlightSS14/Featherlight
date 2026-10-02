@@ -1,0 +1,23 @@
+# Traitor - no marooning!
+- type: weightedRandom
+  id: TraitorObjectiveGroupsFeatherlight
+  weights:
+    TraitorObjectiveGroupSteal: 1 # Yoinking stuff
+    TraitorObjectiveGroupKill: 1 # No Maroon, only Teach-A-Lesson
+    TraitorObjectiveGroupState: 1 # Objectives like 'get to CentComm alive'
+    TraitorObjectiveGroupSocial: 0.25 # Objectives like 'help (person) complete their objectives'
+    TraitorObjectiveGroupStory: 0.85 # RP objectives
+
+- type: weightedRandom
+  id: TraitorObjectiveGroupKillFeatherlight
+  weights:
+    TeachRandomPersonObjective: 1
+    TeachRandomHeadObjective: 0.25
+
+# Vampire - no marooning!
+- type: weightedRandom
+  id: VampireObjectiveGroupsFeatherlight
+  weights:
+    VampireObjectiveGroupSteal: 1
+    VampireObjectiveGroupDrain: 1
+    VampireObjectiveGroupState: 1

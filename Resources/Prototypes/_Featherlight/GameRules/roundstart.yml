@@ -1,0 +1,8 @@
+- type: entity
+  parent: BaseGameRule
+  id: SubGamemodesRuleThief
+  components:
+  - type: SubGamemodes
+    rules:
+    - id: ThiefFeatherlight
+      prob: 0.80

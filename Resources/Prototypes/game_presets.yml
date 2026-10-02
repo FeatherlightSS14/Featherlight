@@ -183,12 +183,12 @@
     - tator
   name: traitor-title
   description: traitor-description
-  minPlayers: 5 # 🌟Starlight🌟
+  minPlayers: 1 # Featherlight
   showInVote: true # 🌟Starlight🌟
   rules:
   # - DummyNonAntagChance 🌟Starlight🌟
   - Traitor
-  - SubGamemodesRuleNoChangelings #Starlight
+  - SubGamemodesRuleThief # Featherlight
   - BasicStationEventScheduler
   - MeteorSwarmScheduler
   - SpaceTrafficControlEventScheduler # Starlight

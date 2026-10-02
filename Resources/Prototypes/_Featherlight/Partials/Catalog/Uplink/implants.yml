@@ -1,0 +1,6 @@
+- type: !PartialOnly listing
+  id: UplinkMindcontrolImplant
+  cost:
+    Telecrystal: 20 # made more expensive due to being strong on low pop
+  discountDownTo:
+    Telecrystal: 15

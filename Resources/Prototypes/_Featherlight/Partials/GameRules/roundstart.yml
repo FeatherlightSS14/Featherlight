@@ -1,0 +1,23 @@
+# No maroon objectives
+- type: !PartialOnly entity
+  id: BaseTraitorRule
+  components:
+  - type: AntagRandomObjectives
+    sets:
+    - groups: TraitorObjectiveGroupsFeatherlight
+
+# Less min players, lower traitor cap
+- type: !PartialOnly entity
+  id: Traitor
+  components:
+  - type: GameRule
+    minPlayers: 1
+  - type: AntagSelection
+    lateJoinAdditional: true
+    antags:
+    - !type:LinearAntagCount
+      proto: Traitor
+      playerRatio: 15
+      range:
+        min: 1
+        max: 2
