@@ -10,6 +10,7 @@
   minPlayers: 5
   showInVote: false
   rules:
+    - SpaceTrafficControlFriendlyEventScheduler
     - SpaceTrafficControlEventScheduler
     - ThiefGamerule
     - BasicRoundstartVariation

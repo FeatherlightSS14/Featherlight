@@ -223,7 +223,7 @@
   - type: AntagRandomObjectives
     sets:
     - groups: TraitorObjectiveGroups
-    maxDifficulty: 6 # Starlight. Ultrapop + ton of new targets means some objectives become really easy in the chaos.
+    maxDifficulty: 5
   - type: AntagSelection
     agentName: traitor-round-end-agent-name
   - type: DynamicRuleCost
@@ -243,10 +243,10 @@
     antags:
     - !type:LinearAntagCount
       proto: Traitor
-      playerRatio: 14.5 # Starlight
+      playerRatio: 14.5
       range:
         min: 1
-        max: 24 # Starlight
+        max: 24
 
 - type: entity
   id: TraitorReinforcement # This shouldn't be in here but I'm not sure where to put it :(
