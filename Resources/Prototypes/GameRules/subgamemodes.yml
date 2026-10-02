@@ -18,7 +18,7 @@
 #      maxPicks: 1
     - groups: ThiefObjectiveGroupOuter # Replaced with outer group, so we can *finally* roll the escape objective more reliably.
       maxPicks: 10
-    maxDifficulty: 4 # Featherlight. Less thieves, but more stealing.
+    maxDifficulty: 3 # Starlight end. Ultrapop + ton of new targets means some objectives become really easy in the chaos.
   - type: AntagSelection
     agentName: thief-round-end-agent-name
     selectionTime: PrePlayerSpawn
@@ -26,10 +26,10 @@
     antags:
     - !type:LinearAntagCount
       proto: Thief
-      playerRatio: 15 # Featherlight
+      playerRatio: 31.2
       range:
         min: 1
-        max: 2 # Featherlight
+        max: 6
   - type: DynamicRuleCost
     cost: 75
 

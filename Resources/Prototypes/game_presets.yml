@@ -183,7 +183,7 @@
     - tator
   name: traitor-title
   description: traitor-description
-  minPlayers: 1 # Featherlight
+  minPlayers: 5
   showInVote: true # 🌟Starlight🌟
   rules:
   # - DummyNonAntagChance 🌟Starlight🌟

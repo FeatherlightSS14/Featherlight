@@ -1,0 +1,20 @@
+# Thief
+- type: !PartialOnly entity
+  id: Thief
+  components:
+  - type: AntagRandomObjectives
+    sets:
+    - groups: ThiefObjectiveGroupOuter
+      maxPicks: 10
+    maxDifficulty: 4 # Less thieves, but more stealing.
+  - type: AntagSelection
+    agentName: thief-round-end-agent-name
+    selectionTime: PrePlayerSpawn
+    lateJoinAdditional: true
+    antags:
+    - !type:LinearAntagCount
+      proto: Thief
+      playerRatio: 15
+      range:
+        min: 1
+        max: 2 # Less thieves
