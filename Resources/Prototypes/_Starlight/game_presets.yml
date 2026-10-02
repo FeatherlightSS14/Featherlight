@@ -6,16 +6,14 @@
     - eventlite
     - eventdiet
   name: eventlight-title
-  description: featherlight-eventlight-description # featherlight
+  description: eventlight-description
   minPlayers: 5
   showInVote: false
   rules:
-  # Featherlight start
     - SpaceTrafficControlFriendlyEventScheduler
-    #- SpaceTrafficControlEventScheduler
-    #- ThiefGamerule
-    #- BasicRoundstartVariation
-  # Featherlight end
+    - SpaceTrafficControlEventScheduler
+    - ThiefGamerule
+    - BasicRoundstartVariation
 
 - type: gamePreset
   id: SubXenoborgs

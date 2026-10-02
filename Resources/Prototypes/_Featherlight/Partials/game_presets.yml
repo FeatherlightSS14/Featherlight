@@ -1,3 +1,14 @@
+# Traitor
 - type: !PartialOnly gamePreset
   id: Traitor
   minPlayers: 1 # Featherlight
+
+#EventLight Gamemode for Event Usage
+- type: !PartialOnly gamePreset
+  id: EventLight
+  description: featherlight-eventlight-description # smiles
+  minPlayers: 1
+  showInVote: false
+  rules:
+  - SpaceTrafficControlFriendlyEventScheduler
+
