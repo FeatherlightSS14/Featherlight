@@ -21,12 +21,3 @@
       range:
         min: 1
         max: 2
-
-# Just simple antagonists for sub-gamemode
-- type: !PartialOnly entity
-  id: SubGamemodesRuleNoChangelings
-  components:
-  - type: SubGamemodes
-    rules:
-    - id: Thief
-      prob: 0.80
