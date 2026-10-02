@@ -8,7 +8,7 @@
     sprite: _Featherlight/Objects/Fun/Plushies/pholcus_plushie.rsi
     state: icon
   - type: EmitSoundOnUse
-    sound: 
+    sound:
       path: /Audio/Voice/Arachnid/arachnid_chitter.ogg
   - type: EmitSoundOnLand
     sound: /Audio/Voice/Arachnid/arachnid_chitter.ogg
@@ -24,7 +24,7 @@
     soundHit: /Audio/Voice/Arachnid/arachnid_scream.ogg
   - type: Clothing
     quickEquip: false
-    sprite: _Featherlight\Objects\Fun\Plushies\pholcus_plushie.rsi
+    sprite: _Featherlight/Objects/Fun/Plushies/pholcus_plushie.rsi
     slots:
     - HEAD
 
@@ -38,7 +38,7 @@
     sprite: _Featherlight/Objects/Fun/Plushies/jimbo_plushie.rsi
     state: icon
   - type: EmitSoundOnUse
-    sound: 
+    sound:
       path: /Audio/Voice/Moth/moth_chitter.ogg
   - type: EmitSoundOnLand
     sound: /Audio/Voice/Moth/moth_squeak.ogg
@@ -54,6 +54,6 @@
     soundHit: /Audio/Voice/Moth/moth_squeak.ogg
   - type: Clothing
     quickEquip: false
-    sprite: _Featherlight\Objects\Fun\Plushies\jimbo_plushie.rsi
+    sprite: _Featherlight/Objects/Fun/Plushies/jimbo_plushie.rsi
     slots:
     - HEAD
