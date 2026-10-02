@@ -4,5 +4,5 @@
   components:
   - type: SubGamemodes
     rules:
-    - id: Thief
+    - id: ThiefFeatherlight
       prob: 0.80
