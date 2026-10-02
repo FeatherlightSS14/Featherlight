@@ -1,0 +1,6 @@
+- type: !PartialOnly entity
+  id: BaseTraitorRule
+  components:
+  - type: AntagRandomObjectives
+    sets:
+    - groups: TraitorObjectiveGroupsFeatherlight
